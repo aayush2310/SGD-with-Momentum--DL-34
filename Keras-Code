@@ -1,0 +1,11 @@
+#SGD IMPLEMENTATION:-
+
+tf.keras.optimizers.SGD(
+     learning_rate=0.01,momentum=0.0,mesterov=False,name="SGD","kwargs
+)
+
+#MOMENTUM-SGD IMPLEMENTATION
+
+tf.keras.optimizers.SGD(
+     learning_rate=0.01,momentum=0.9,mesterov=False,name="SGD","kwargs
+)
