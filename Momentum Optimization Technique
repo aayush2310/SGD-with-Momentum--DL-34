@@ -1,0 +1,16 @@
+What problem is solved by momentum?
+=>In neural networks we have non convex optimization-complex loss function curve-gives rise to following problems:-
+   i)high curvature
+   ii)consistent gradient(slope very low)
+   iii)noisy gradient(gradient is fluctuating-local minima)
+   
+Momentum technique can work fine in these problems as well.
+
+What?
+=>The idea behind the concept is that if my previous gradients are making me move in a particular direction then I will move in that direction with a very high speed.If 
+  my previous gradients are saying to move in a particular direction,then we increase our speed in that direction.Advantage of using momentum optimization->speed
+  
+  Momentum SGD=>escapes local minima
+  
+  The disadvantage is that,like a ball when the ball is reaching the global minima,it is settling eventually at global minima but after a to and fro motion due to its 
+  momentum,so a little time is wasted there.So,this is not the fasted optimization technique.
